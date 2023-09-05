@@ -14,10 +14,13 @@ XGBoost: Specifically optimized for shorter text passages, this gradient boostin
 ## Docker Support:
 
 GPTector includes Docker support, allowing users to easily containerize the application and ensure it runs consistently across different environments. To build the Docker image, use the following command:
+
 `
 docker build -t gptector/api-server -f Dockerfile .
 `
+
 Once built, you can run the Docker container and access the application on port 8000 by this command:
+
 `
 docker run -p 8000:8000 gptector/api-server
 `
